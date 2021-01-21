@@ -9,7 +9,7 @@ use ApiBuilder\Service\Client\CallInterface;
 abstract class BaseBooks
 {
     protected string $baseUrl = 'https://www.googleapis.com/books/v1';
-    private string $googleApiKey = "AIzaSyCX8TFdu6ykaYi2JDUsQAxlNo0NNYQrquI";
+    private string $googleApiKey = "";
 
     protected function booksCallWithQueryKey(CallInterface $call, string $method, string $endpoint, array $parameters = []): ResponseDTO
     {
