@@ -1,0 +1,23 @@
+{
+    "name": "zus1/api-builder",
+    "description": "Easy to use libary for building api calls. Works with guzzle http and symfony http-clinet. Built for symfony.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ApiBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-client": "5.2.*",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "php": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Ozuska",
+            "email": "mario.ozuska@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
